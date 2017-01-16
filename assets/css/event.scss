@@ -1,0 +1,159 @@
+
+#gallery {
+  width: 100vw!important;
+  height: auto!important;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding-bottom: 10vh;
+}
+
+#gallery .inner {
+  left: -200%;
+  white-space: nowrap;
+  position: relative;
+  left: 0%;
+  transition: left 1s;
+}
+
+#gallery .events {
+  display: inline-block;
+  margin-right: -4px;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+
+  padding-left: 2.5vw;
+}
+
+/*end section */
+.ui-title-block{
+  padding-left: 20px;
+  padding-right: 20px;
+  h2{
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+  }
+}
+.title-month{
+  font-size: 3em;
+  transition: left 5s;
+  font-weight: bold;
+}
+.back,.next{
+  cursor:pointer;
+}
+.event-title{
+  font-size: 100%;
+}
+.wrap-text{
+  word-break: break-all;
+  word-wrap: break-word;
+}
+.medium-text{
+  font-size: 1.2em;
+}
+.small-text{
+  font-size: 0.7em;
+}
+.white-text{
+  color:white;
+}
+.red-text{
+  color: #b80924;
+}
+.title-event{
+  font-size: 1.5em;
+}
+.blue{
+  background-color: #0D2D62;
+
+}
+.white{
+  background-color: #F5F7FA;
+}
+
+.event-info{
+  height: 100px;
+  padding:0;
+  padding-left: 5px;
+}
+.full-height{
+  height: 100%;
+}
+.section-event{
+  overflow: auto;
+}
+.section-white{
+  background-color: white;
+}
+.gray-light{
+  background-color: #F5F7FA;
+}
+.event-padding{
+  padding-left: 2%;
+  padding-right: 5%;
+}
+.small-padding-top{
+  padding-bottom: 2%;
+}
+.course {
+  height: 450px;
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.course:hover .screen {
+  top: 0%;
+  height: 100%;
+  width: 100%;
+}
+
+.course .screen {
+  top: 0%;
+  position: absolute;
+  background-color: rgba(13,45,98,0.8);
+
+  height: 0%;
+  transition: top 5s;
+  overflow: hidden;
+}
+.btn-primary-red {
+    color: #fff;
+    background-color: #b80924;
+    border-color: #b80924;
+    height:50px;
+    border-radius: 5px;
+}
+.btn-primary-red:hover {
+  background-color: white;
+  color:#b80924;
+}
+.btn-primary-empty{
+  border: solid 2px #fff;
+  height:50px;
+  color:white;
+  border-radius: 5px;
+
+}
+.btn-primary-empty:hover{
+  background-color: white;
+  color:#606062;
+}
+
+.btn-primary-red .btn, .btn-primary-empty .btn {
+    position: relative;
+    padding: 15px 27px;
+    font-size: 16px;
+    line-height: 16px;
+    border-radius: 5px;
+    white-space: nowrap;
+    border-width: 2px;
+    transition: .3s;
+    backface-visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.18);
+}

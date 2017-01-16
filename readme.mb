@@ -1,0 +1,36 @@
+Delilah Calendar!
+===================
+
+
+**Delilah calendar** provides an easy access to your events calendar without pain in a head. 
+
+----------
+
+
+Features
+-------------
+
+
+
+> - Make your own calendar putting events in each month
+> - Awesome UX and pretty UI design
+> -  ECMAScript 2015 (ES6) features
+> - Haml and sass
+> - Flexbox grid 
+> - ECMAScript 6
+
+#### <i class="icon-file"></i> Modify events
+
+You can add and edit events using index.haml file.
+----------
+
+
+Licence
+-------------------
+
+**Delilah calendar** can be used wherever you want. Attribute to author, I will thank you for it.
+
+### About author
+
+  [My Linkedin](https://www.linkedin.com/in/migueref)
+

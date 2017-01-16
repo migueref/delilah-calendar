@@ -1,0 +1,312 @@
+!!!
+%html{:lang => "es"}
+  %head
+    %meta{:charset => "utf-8", :content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %meta{:content => "width=device-width, initial-scale=1, maximum-scale=1, minimal-ui", :name => "viewport"}/
+    %title Event calendar
+    %meta{:content => "Event calendar with images", :name => "description"}/
+    %link{:href => "favicon.png", :rel => "shortcut icon", :type => "image/x-icon"}/
+    %link{:href => "assets/css/flexboxgrid.min.css", :rel => "stylesheet"}/
+    %link{:href => "assets/plugins/bootstrap/css/bootstrap.css", :rel => "stylesheet"}/
+    %link{:href => "assets/css/event.css", :rel => "stylesheet"}/
+    %script{:src => "assets/plugins/jquery/jquery-1.11.3.min.js"}
+
+  %body
+    .col-xs-12#gallery
+      .row.center-xs
+        %h2.title
+          %a{class:"back",target:"_self"}
+            %img{src:"img/left.png",style:"width:25px;"}
+        .ui-title-block
+          %h2#actual-month
+            January
+        %h2.title
+          %a{class:"next",target:"_self"}
+            %img{src:"img/right.png",style:"width:25px;"}
+
+      %br
+      .inner
+        /Jan
+        .section-white.full-height.small-padding-bottom.events
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/07.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 9
+                %p.center-xs
+                  %b January
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b New event
+                %p Event
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/02.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 9
+                %p.center-xs
+                  %b January
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b New event
+                %p Event
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/education.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 9
+                %p.center-xs
+                  %b January
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b New event
+                %p Event
+        /Feb
+        .section-white.full-height.small-padding-bottom.events
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/02.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 17
+                %p.center-xs
+                  %b february
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Event
+                %p Event
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/07.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 17
+                %p.center-xs
+                  %b february
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Course
+                %p Coursename
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/education.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 17
+                %p.center-xs
+                  %b february
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Event
+                %p Event
+        /Mar
+        .section-white.full-height.small-padding-bottom.events
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/02.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Aula
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 6
+                %p.center-xs
+                  %b March
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Event
+                %p Event name
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/evaluate.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Aula
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 6
+                %p.center-xs
+                  %b March
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Event
+                %p Event name
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/02.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Aula
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 6
+                %p.center-xs
+                  %b March
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Event
+                %p Event name
+        /Apr
+        .section-white.full-height.small-padding-bottom.events
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/education.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 7,8
+                %p.center-xs
+                  %b April
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Event
+                %p Event name
+        /May
+        .section-white.full-height.small-padding-bottom.events
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/02.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 17,18,19
+                %p.center-xs
+                  %b May
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Event
+                %p  event name
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/07.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 26,27
+                %p.center-xs
+                  %b May
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Course
+                %h3 Course name
+        /Jun
+        .section-white.full-height.small-padding-bottom.events
+        /Jul
+        .section-white.full-height.small-padding-bottom.events
+        /Aug
+        .section-white.full-height.small-padding-bottom.events
+        /Sep
+        .section-white.full-height.small-padding-bottom.events
+        /Oct
+        .section-white.full-height.small-padding-bottom.events
+        /Nov
+        .section-white.full-height.small-padding-bottom.events
+        /Dec
+        .section-white.full-height.small-padding-bottom.events
+          .event-padding.col-md-4.small-padding-top.col-lg-4.col-sm-6
+            .row
+              .col-xs-12.course{:style => "background-image:url(img/02.jpg)"}
+                .screen
+                  .row.middle-xs.center-xs.full-height.white-text
+                    .col-xs-12.medium-text
+                      %a.btn-effect.btn-primary-red.btn.medium-text{:href => "#"} Home
+
+                      %br/
+                      %br/
+                      %a.btn-effect.btn-primary-empty.btn.medium-text{:href => "#"} Read More
+            .row
+              .event-info.blue.col-xs-3.white-text
+                %h3.center-xs 1,2
+                %p.center-xs
+                  %b December
+              .event-info.white.col-xs-9.center-xs
+                %h2.title-event.red-text
+                  %b Meeting
+                %p Meeting description
+      %br
+      %br
+      %br
+      %br
+
+%script{:src => "assets/js/jquery-migrate-1.2.1.js"}
+%script{:src => "js/main-dist.js"}
+
+%script{:src => "assets/plugins/bootstrap/js/bootstrap.min.js"}
